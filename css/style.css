@@ -1,0 +1,101 @@
+/*---NAVBAR START---*/
+body {
+    background: url('../images/background.jpg');
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+    overflow-x: hidden;
+    overflow-y:scroll;
+    
+}
+
+.navbar-default {
+    background-color: #3B5998 !important;
+    border-color: #3B5998 !important;
+    color: #FFFFFF !important;
+    border-radius: 0 !important;
+    
+}
+a{
+     color: #ffffff !important;
+}
+.navbar li:hover{
+    background: #5d7ab9;
+   
+    
+}
+.dropdown-menu a.nav-drop{
+    color: #000000 !important;
+}
+
+.navbar-brand:hover{
+     color: #f4f1f1 !important;
+}
+.nav-drop:hover{
+    background: #5d7ab9 !important;
+}
+.nav-drop li:hover{
+    color:#ffffff !important;
+}
+/*---NAVBAR END---*/
+
+/*---TILES START---*/
+.question-bank {
+    
+    background-color: #3498db;
+    overflow: hidden;
+    height: auto;
+    color: white;
+    padding: 0 10px 0 10px;
+    font-size: 120%;
+    text-align: center;
+    transition: background 0.5s;
+}
+
+.create-test{
+    
+    background-color: #e67e22;
+    overflow: hidden;
+    height: auto;
+    color: white;
+    padding: 0 10px 0 10px;
+    font-size: 120%;
+    text-align: center;
+    transition: background 0.5s;
+    
+}
+
+
+.study-mat{
+    
+    background-color: #1abc9c;
+    overflow: hidden;
+    height: auto;
+    color: white;
+    padding: 0 10px 0 10px;
+    font-size: 120%;
+    text-align: center;
+    transition: background 0.5s;
+}
+/*---HOVER TILE---*/
+.question-bank:hover { background-color: #27ae60;}
+.create-test:hover{background-color: #9b59b6;}
+.study-mat:hover{background-color:#e74c3c;}
+
+.question-bank .create-test .study-mat .rubberBand {
+  -webkit-animation-name: rubberBand;
+  animation-name: rubberBand;
+}
+.nav-drop li{
+    color: #ffffff;
+}
+.btn-default{
+    color: #000000 !important;
+    margin-bottom: 10px !important;
+}
