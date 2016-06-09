@@ -101,3 +101,14 @@ a{
 .row{
     margin-top: 70px;
 }
+.test-slide{
+    
+    background-color: #1abc9c;
+    overflow: hidden;
+    height: auto;
+    color: white;
+    padding: 0 10px 0 10px;
+    font-size: 120%;
+    text-align: center;
+    transition: background 1s;
+}
