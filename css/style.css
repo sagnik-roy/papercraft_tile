@@ -97,3 +97,7 @@ a{
 }
 .btn-default{
     color: #000000 !important;
+    }
+.row{
+    margin-top: 70px;
+}

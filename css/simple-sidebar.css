@@ -9,7 +9,8 @@
   width: 200px;
   height: 100%;
   color: #e1ffff;
-margin-top: 52px;
+margin-top: 50px;
+    z-index: 1;
 }
 .nav-side-menu .brand {
   background-color: #23282e;
