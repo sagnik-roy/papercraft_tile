@@ -55,7 +55,7 @@ a{
     padding: 0 10px 0 10px;
     font-size: 120%;
     text-align: center;
-    transition: background 0.5s;
+    transition: background 1s;
 }
 
 .create-test{
@@ -67,7 +67,7 @@ a{
     padding: 0 10px 0 10px;
     font-size: 120%;
     text-align: center;
-    transition: background 0.5s;
+    transition: background 1s;
     
 }
 
@@ -81,7 +81,7 @@ a{
     padding: 0 10px 0 10px;
     font-size: 120%;
     text-align: center;
-    transition: background 0.5s;
+    transition: background 1s;
 }
 /*---HOVER TILE---*/
 .question-bank:hover { background-color: #27ae60;}
@@ -97,5 +97,3 @@ a{
 }
 .btn-default{
     color: #000000 !important;
-    margin-bottom: 10px !important;
-}
